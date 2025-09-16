@@ -126,5 +126,4 @@ def test_check_mathematical_series():
     print("All tests passed.")
 
 # Run tests 
-if __name__ == "__main__":
-    test_check_mathematical_series()
+test_check_mathematical_series()
