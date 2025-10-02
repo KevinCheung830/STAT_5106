@@ -28,7 +28,7 @@ def extract_professor_names_from_file(filename):
         print(f"Error reading file: {e}")
         return []
 
-def part_b():
+def q4():
     filename = 'dept_hist.html'
     professors = extract_professor_names_from_file(filename)
     if professors:
@@ -38,4 +38,4 @@ def part_b():
     else:
         print("No professor names found or error reading file.")
 
-part_b()
+q4()
